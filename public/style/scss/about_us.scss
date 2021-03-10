@@ -1,0 +1,50 @@
+@import "mixins.scss";
+
+.about-us__sogin-text-wrapper,
+.about-us__text-wrapper {
+  width: 100%;
+  min-height: 340px;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: $boxShadow;
+}
+
+.about-us__sogin-pic {
+  border-radius: 16px;
+}
+
+.about-us__text_sogin-text {
+  width: 50%;
+  font-size: 20px;
+}
+
+.about-us__text-wrapper {
+  border-radius: 16px;
+  min-height: 600px;
+}
+.about-us__text-subwrapper {
+  width: 54%;
+  margin: 20px auto;
+}
+.about-us__text {
+  padding-bottom: 20px;
+
+  font-size: 20px;
+}
+
+.about-us__images {
+  margin-right: 25px;
+  border-radius: 16px;
+  @media (max-width: 807px) {
+      margin-right: 0px;
+      margin-bottom: 20px;
+  }
+}
+.about-us__image {
+  max-width: 95%;
+  border-radius: 16px;
+  &:first-child {
+    margin-bottom: 20px;
+  }
+}

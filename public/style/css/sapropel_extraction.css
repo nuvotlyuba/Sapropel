@@ -1,0 +1,121 @@
+/* stylelint-disable */
+/* stylelint-enable */
+.sapropel-extraction__subtitle {
+  padding-top: 4.0625rem;
+  font-size: 22px;
+}
+
+.sapropel-extraction__list-item {
+  font-size: 1.125rem;
+  list-style-type: none;
+  padding-left: 1rem;
+  padding-bottom: 0.9375rem;
+  background-image: url(../../img/list_style.svg);
+  background-position: 0 0.625rem;
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+}
+
+.sapropel-extraction__list {
+  padding-top: 1.875rem;
+}
+
+.sapropel-extraction__text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.sapropel-extraction__description-title {
+  padding-top: 84px;
+}
+
+.sapropel-extraction__description-plate {
+  width: 100%;
+  min-height: 17.4375rem;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0.375rem 0.9375rem rgba(24, 99, 171, 0.15);
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__description-plate {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__description-plate {
+    padding: 40px 0;
+    width: 75%;
+    min-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__description-item {
+    padding-bottom: 40px;
+  }
+  .sapropel-extraction__description-item:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.sapropel-extraction__description-item-text {
+  padding-top: 10px;
+}
+
+.sapropel-extraction__cooperation {
+  padding-top: 84px;
+}
+
+.sapropel-extraction__cooperation-stages {
+  width: 100%;
+  min-height: 17.4375rem;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0.375rem 0.9375rem rgba(24, 99, 171, 0.15);
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__cooperation-stages {
+    flex-direction: column;
+    width: 75%;
+    min-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__cooperation-stage {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 690px) {
+  .sapropel-extraction__cooperation-arrow {
+    transform: rotate(0.25turn);
+  }
+}
+
+.sapropel-extraction__buttons {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.sapropel-extraction__button-link {
+  margin: 35px 10px 0;
+}
+
+.sapropel-extraction__button {
+  width: 100%;
+  min-width: 18.75rem;
+}
+
+.sapropel-extraction__button_margin-top {
+  margin: 35px 10px 0;
+}

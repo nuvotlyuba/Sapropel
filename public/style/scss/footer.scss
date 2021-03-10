@@ -1,0 +1,69 @@
+@import "../css/mixins";
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footer-content__img {
+  max-width: 95vw;
+  padding: 20px 0;
+}
+
+.footer-content__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+
+  @include adaptive(smartphone) {
+    width: 60%;
+  }
+}
+
+.footer-content__contacts-item {
+  padding: 10px 0;
+}
+
+.footer-content__contacts-item__title {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.footer-content__contacts-item__text {
+  padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.btn-up {
+  display: none;
+  position: fixed;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow: $boxShadow;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f6f9fb;
+  cursor: pointer;
+}
+
+.btn-up-arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: 0;
+  margin: auto;
+}

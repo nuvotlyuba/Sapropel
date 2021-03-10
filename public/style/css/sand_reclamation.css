@@ -1,0 +1,71 @@
+/* stylelint-disable */
+/* stylelint-enable */
+.beach-cleansing__subtitle {
+  padding-top: 4.0625rem;
+  font-size: 22px;
+}
+
+.beach-cleansing__list-item {
+  font-size: 1.125rem;
+  list-style-type: none;
+  padding-left: 1rem;
+  padding-bottom: 0.9375rem;
+  background-image: url(../../img/list_style.svg);
+  background-position: 0 0.625rem;
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+}
+
+.beach-cleansing__list {
+  padding-top: 1.875rem;
+}
+
+.beach-cleansing__text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.beach-cleansing__cooperation {
+  padding-top: 84px;
+}
+
+.beach-cleansing__cooperation-stages {
+  width: 100%;
+  min-height: 17.4375rem;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0.375rem 0.9375rem rgba(24, 99, 171, 0.15);
+}
+
+@media (max-width: 690px) {
+  .beach-cleansing__cooperation-stages {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 690px) {
+  .beach-cleansing__cooperation-stage {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 690px) {
+  .beach-cleansing__cooperation-arrow {
+    transform: rotate(0.25turn);
+  }
+}
+
+.beach-cleansing__buttons {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.beach-cleansing__button-link {
+  margin: 35px 10px 0;
+}
+
+.beach-cleansing__button {
+  width: 100%;
+  min-width: 18.75rem;
+}

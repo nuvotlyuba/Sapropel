@@ -1,0 +1,32 @@
+$textColor: #006699;
+$whiteColor: #fff;
+$textColorWhite: #fff;
+$bgDark: #bfd2da;
+$bgLight: #e1eaee;
+$darkBlue: #006699;
+$lighterBlue: #5597b8;
+
+$boxShadow: 0 0.375rem 0.9375rem rgba(24, 99, 171, 0.15);
+$borderRadius: 8px;
+
+/* stylelint-disable */
+@mixin adaptive($device) {
+  @if ($device == mobile) {
+    @media (max-width: 422px) {
+      @content;
+    }
+  } @else if ($device == smartphone) {
+    @media (max-width: 600px) {
+      @content;
+    }
+  } @else if ($device == tablet) {
+    @media (max-width: 1150px) {
+      @content;
+    }
+  } @else if ($device == notebook) {
+    @media (max-width: 1135px) {
+      @content;
+    }
+  }
+}
+/* stylelint-enable */

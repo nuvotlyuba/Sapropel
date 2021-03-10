@@ -1,0 +1,110 @@
+@import "../css/mixins";
+
+.water-cleansing__subtitle {
+  padding-top: 4.0625rem;
+  font-size: 22px;
+}
+.water-cleansing__list-item {
+  font-size: 1.125rem;
+  list-style-type: none;
+  padding-left: 1rem;
+  padding-bottom: 0.9375rem;
+  background-image: url(../../img/list_style.svg);
+  background-position: 0 0.625rem;
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+}
+
+.water-cleansing__list {
+  padding-top: 1.875rem;
+}
+
+.water-cleansing__plate {
+  align-content: space-around;
+  width: 22.5rem;
+  text-align: center;
+  height: 25.3125rem;
+  margin: 25px 12px 0;
+  justify-content: flex-start;
+  border-radius: 16px;
+  box-shadow: $boxShadow;
+  flex-wrap: nowrap;
+  @include adaptive(mobile) {
+    font-size: 17px;
+  }
+}
+
+.water-cleansing__plate-logo {
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.water-cleansing__plate-text {
+  font-size: 19px;
+  width: 88%;
+  @include adaptive(mobile) {
+    font-size: 17px;
+  }
+}
+
+.water-cleansing__text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.water-cleansing__cooperation {
+  padding-top: 100px;
+}
+
+.water-cleansing__cooperation-stages {
+  width: 100%;
+  min-height: 17.4375rem;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: $boxShadow;
+  @media (max-width: 690px) {
+    flex-direction: column;
+  }
+}
+
+.water-cleansing__cooperation-stage {
+  @media (max-width: 690px) {
+    padding: 40px 0;
+  }
+}
+
+.water-cleansing__cooperation-arrow {
+  @media (max-width: 690px) {
+    transform: rotate(0.25turn);
+  }
+}
+
+.water-cleansing__prices {
+  font-weight: 400;
+}
+
+.water-cleansing__button {
+
+  &_margin-top {
+    margin: 15px 10px 0;
+  }
+}
+
+.water-cleansing__button-link {
+  margin: 15px 10px 0;
+}
+
+.water-cleansing__button {
+  width: 100%;
+  min-width: 18.75rem;
+}
+
+.water-cleansing__jobs-button-wrapper {
+  padding-top: 69px;
+}
+
+.water-cleansing__jobs-button {
+  width: 100%;
+  min-width: 18.75rem;
+}

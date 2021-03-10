@@ -1,0 +1,95 @@
+@import "../css/mixins";
+
+.dredger__container {
+  background-color: $bgDark;
+}
+
+.dredger__container-title {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.dredger__description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 25.9375rem;
+  border-top: 1px solid #90b8ce;
+  border-bottom: 1px solid #90b8ce;
+}
+
+.dredger__description-img-container {
+  width: 555px;
+}
+.dredger__description-img {
+  width: 95%;
+}
+
+.dredger__description-specs-wrapper {
+  overflow-x: auto;
+  flex-grow: 2;
+}
+
+.dredger__description-title {
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+.dredger__description-specs-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+.dredger__description-specs-row {
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #90b8ce;
+}
+
+.table-col {
+  max-width: 80%;
+}
+
+.dredger__description-specs {
+  padding-top: 10px;
+  color: $textColor;
+}
+
+.dredger__description-specs-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dredgers__description-buttons {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
+  padding-top: 70px;
+}
+.dredgers__description-button {
+  margin: 15px 15px;
+}
+
+.dredgers__description-text-wrapper {
+  padding-top: 50px;
+}
+
+.dredgers__description-text {
+  font-size: 20px;
+}
+
+.dredgers__description-text:first-child {
+  padding-bottom: 25px;
+}
+
+.dredgers__description-text:last-child {
+  padding-bottom: 30px;
+}
+
+.dredgers__description-protfolio-btn {
+  max-width: 15em;
+}

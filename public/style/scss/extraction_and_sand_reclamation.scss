@@ -1,0 +1,77 @@
+@import "../css/mixins.scss";
+
+.sand-extraction__subtitle {
+  padding-top: 4.0625rem;
+  font-size: 22px;
+}
+.sand-extraction__list-item {
+  font-size: 1.125rem;
+  list-style-type: none;
+  padding-left: 1rem;
+  padding-bottom: 0.9375rem;
+  background-image: url(../../img/list_style.svg);
+  background-position: 0 0.625rem;
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+}
+
+.sand-extraction__list {
+  padding-top: 1.875rem;
+}
+
+.sand-extraction__cooperation-title {
+  margin-top: 6.25rem;
+}
+
+.sand-extraction__text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.sand-extraction__cooperation-stages {
+  width: 100%;
+  min-height: 17.4375rem;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  border-radius: 16px;
+  box-shadow: 0 0.375rem 0.9375rem rgba(24, 99, 171, 0.15);
+}
+
+@media (max-width: 860px) {
+  .sand-extraction__cooperation-stages {
+    flex-direction: column;
+    width: 75%;
+    min-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 860px) {
+  .sand-extraction__cooperation-stage {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .sand-extraction__cooperation-arrow {
+    transform: rotate(0.25turn);
+  }
+}
+
+.sand-extraction__buttons {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.sand-extraction__button-link {
+  margin: 15px 10px 0;
+}
+
+.sand-extraction__button {
+  width: 100%;
+  min-width: 18.75rem;
+  &_margin-top {
+    margin: 15px 10px 0;
+  }
+}
